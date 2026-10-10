@@ -1,4 +1,4 @@
-# Orket-extension-template
+# Orket-Extension-Template
 
 A headless starting point for Orket extensions. Clone it, set your extension identity,
 and replace the example behavior. The host communication plumbing is already here.
@@ -20,7 +20,16 @@ Prerequisites: Python 3.11+, an official Orket SDK wheel or SDK source directory
 Orket host for live calls. The SDK can also be preinstalled in the chosen environment.
 No Node, browser, frontend build, or Orket host package is needed in the extension environment.
 
-After cloning this repository into your new project directory:
+Select **Use this template** on
+[GitHub](https://github.com/McElyea/Orket-Extension-Template) to create your own repository,
+then clone it. To clone this starter directly instead:
+
+```powershell
+git clone https://github.com/McElyea/Orket-Extension-Template.git my-extension
+cd my-extension
+```
+
+From your new project directory:
 
 ```powershell
 python -m venv .venv
